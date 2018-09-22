@@ -1,132 +1,9 @@
-/*
-
-    Template Name   : Volcano
-    Template Author : http://pixelhint.com
-    Author Email    : contact@pixelhint.com
-    License    		: http://pixelhint.com/license
-    
-    
-    *****************************************
-    
-    
-    - Fonts
-    - Reset Default Foundation Styling
-    - Hero
-    - Header
-    - Services
-    - Fancy Button
-    - Quote
-    - Testimonials
-    - Call To Action
-    - Google Map
-    - Footer
-    - Responsive CSS
-    
-*/
-/*		Fonts		*/
-
-@font-face {
-    font-family: 'lato-black';
-    src: url('../fonts/lato-black.eot');
-    src: url('../fonts/lato-black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/lato-black.woff') format('woff'),
-        url('../fonts/lato-black.ttf') format('truetype'),
-        url('../fonts/lato-black.svg#LatoBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'lato-light';
-    src: url('../fonts/lato-light.eot');
-    src: url('../fonts/lato-light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/lato-light.woff') format('woff'),
-        url('../fonts/lato-light.ttf') format('truetype'),
-        url('../fonts/lato-light.svg#LatoLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'lato-bold';
-    src: url('../fonts/lato-bold.eot');
-    src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/lato-bold.woff') format('woff'),
-        url('../fonts/lato-bold.ttf') format('truetype'),
-        url('../fonts/lato-bold.svg#LatoBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'lato-hairline';
-    src: url('../fonts/lato-hairline.eot');
-    src: url('../fonts/lato-hairline.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/lato-hairline.woff') format('woff'),
-        url('../fonts/lato-hairline.ttf') format('truetype'),
-        url('../fonts/lato-hairline.svg#LatoHairline') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-bold';
-    src: url('../fonts/raleway-bold.eot');
-    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/raleway-bold.woff') format('woff'),
-        url('../fonts/raleway-bold.ttf') format('truetype'),
-        url('../fonts/raleway-bold.svg#RalewayBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-light';
-    src: url('../fonts/raleway-light.eot');
-    src: url('../fonts/raleway-light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/raleway-light.woff') format('woff'),
-        url('../fonts/raleway-light.ttf') format('truetype'),
-        url('../fonts/raleway-light.svg#RalewayLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway-regular.eot');
-    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/raleway-regular.woff') format('woff'),
-        url('../fonts/raleway-regular.ttf') format('truetype'),
-        url('../fonts/raleway-regular.svg#RalewayRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-semibold';
-    src: url('../fonts/raleway-semibold.eot');
-    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/raleway-semibold.woff') format('woff'),
-        url('../fonts/raleway-semibold.ttf') format('truetype'),
-        url('../fonts/raleway-semibold.svg#RalewaySemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-
 
 /*    Reset Default Foundation Styling    */
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 .row {
     max-width: 1140px;
@@ -147,7 +24,7 @@
 
 
 
-.top-bar .name h1{
+.top-bar .name h1 {
     line-height: normal;
     height: auto;
     font-size: 1.375rem;
@@ -161,8 +38,8 @@
 }
 
 .consalt-btn .btn {
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 18px 60px;
+    font-size: 19px;
     border: 1px solid #fff;
     color: #fff;
     border-radius: 5px;
@@ -179,12 +56,26 @@ li {
     list-style: none;
 }
 
+.services h1,
+.trouble h1,
+.list-item h1,
+.voice h1,
+.faq h1,
+.contact100-form-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 80px;
+    font-weight: bold;
+    color: #fbb818;
+}
+
 /*    Hero    */
 
 .hero {
     width: 100%;
     height: 700px;
-    background: url('../img/businessman.jpg') no-repeat 50% 50%;
+    background: url('../img/room.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,32 +84,28 @@ li {
 }
 
 .hero .caption {
-    margin-top: 80px;
+    margin: 80px 0 150px 0;
+    text-align: center;
 }
 
 .hero .caption h1 {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 25px;
     color: #c3c3c3;
     line-height: 40px;
     letter-spacing: 3px;
 }
 
-.hero .caption h1 span {
-    color: #fbb818;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-
 .hero .caption h2 {
-    font-family: "lato-light", Helvetica, Arial, sans-serif;
     font-size: 40px;
     color: #fff;
     line-height: 60px;
     letter-spacing: 3px;
-    margin: 50px 0;
+    margin: 10px 0 150px 0;
 }
 
+.hero .caption .title{
+    color: #fff;
+}
 
 
 
@@ -233,10 +120,11 @@ header {
 .logo h1 {
     text-decoration: none;
     color: #fbb818;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 100;
     text-transform: uppercase;
+
+    font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 }
 
 header .logo {
@@ -247,28 +135,13 @@ header nav {
     margin-top: 40px;
 }
 
-
-
-
-
 /*    Services    */
 
 .services {
-    padding: 80px 0;
-    box-shadow: 0px -35px 56px -5px #c3c3c3;
-}
-
-.services h1,
-.trouble h1,
-.list-item h1,
-.voice h1,
-.faq h1{
-    text-align: center;
-    color: #333;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 100;
-    margin-bottom: 80px;
+    padding: 80px 0 40px 0;
+    box-shadow: 0px -10px 56px -5px #c3c3c3;
+    background-color: #fefefe;
+    border-bottom: 2px solid #333;
 }
 
 .services .services_list {
@@ -277,12 +150,11 @@ header nav {
 
 .services .services_list .serv_icon {
     margin-bottom: 30px;
-    width: 50px;
+    width: 60px;
 }
 
 .services .services_list p {
     color: #333;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
     text-align: left;
@@ -290,7 +162,6 @@ header nav {
 
 .services .title {
     color: #333;
-    font-family: "raleway-bold", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -300,38 +171,78 @@ header nav {
 
 
 
-
-/*   trouble   */
-.trouble {
-    padding: 0 0 80px 0;
+/*  conclusion  */
+.conclusion {
+    background-color: #fefefe;
+    width: 100%;
+    padding: 0 0 40px 0;
 }
 
-.pop {}
-
-.pop-text {
-    width: 600px;
+.conclusion img {
+    width: 50px;
+    position: relative;
+    top: -14px;
     margin: 0 auto;
     display: block;
 }
 
-.angle-down {
+.conc-text {
     text-align: center;
 }
 
-.fa-angle-down {
-    font-size: 50px;
-    padding-top: 50px;
+.conc-text p {
+    font-size: 25px;
+}
+
+.conc-text span {
+    color: #fbb818;
+    font-size: 30px;
+}
+
+.conc-text .cons-p {
+    font-size: 19px;
+    color: #666;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.conc-text .consalt-btn2 {
+    margin-top: 20px;
+}
+
+
+/*   trouble   */
+.trouble {
+    padding: 40px 0;
+    background-color: #fcfcfc;
+}
+
+.tro-list{
+    text-align: center;
+}
+
+.tro-list .tro-icon{
+    width: 250px;
 }
 
 
 /*   list   */
+.relief {
+    padding: 40px 0;
+}
+
 .list-item {
     width: 100%;
     position: relative;
     margin: 0;
-    padding: 0;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+}
 
+.list-item h1 span {
+    font-weight: 100;
+    letter-spacing: -3px;
+    font-size: 45px;
 }
 
 .list-item .item {
@@ -368,28 +279,44 @@ header nav {
     position: relative;
 }
 
-.list-item .box-title .number {
-    font-family: 'Montserrat Alternates', 'Yu Mincho', sans-serif;
+.list-item .box .number {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 50px;
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.list-item .box-title span {
-    padding-left: 15px;
+.list-item .box .num1::before {
+    content: "1";
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 11px;
+    color: #fbb818;
 }
 
-.list-item .box-title .number:before {
-    content: '';
+.list-item .box .num2::before {
+    content: "2";
+    display: block;
     position: absolute;
-    top: -19px;
-    left: -2px;
-    background: url( //d2vc0qq5qzt7oz.cloudfront.net/assets/generic/investments/about/about-04b7da4….svg) no-repeat;
-        width: 52px;
-    height: 60px;
+    top: -2px;
+    left: 11px;
+    color: #fbb818;
+}
+
+.list-item .box .num3::before {
+    content: "3";
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 11px;
+    color: #fbb818;
+}
+
+.list-item .box-title span {
+    padding-left: 15px;
 }
 
 .list-item .box-title .title {
@@ -405,8 +332,8 @@ header nav {
 }
 
 .consalt-btn2 .btn2 {
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 18px 50px;
+    font-size: 19px;
     border: 1px solid #46d0ec;
     color: #46d0ec;
     border-radius: 5px;
@@ -417,16 +344,6 @@ header nav {
     background-color: #46d0ec;
     transition: 0.4s;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /**    quote    **/
@@ -449,13 +366,19 @@ header nav {
     vertical-align: middle;
 }
 
-.quote blockquote p {
+.quote blockquote .sub-title {
+    color: #fbb818;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.quote blockquote .title {
     color: #fff;
-    font-family: "raleway-light", Helvetica, Arial, sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: lighter;
     text-transform: uppercase;
     margin: 0;
+    letter-spacing: 10px;
 }
 
 
@@ -466,7 +389,7 @@ header nav {
     border: 0;
     width: 20px;
     height: 1px;
-    background-color: #fff;
+    background-color: #fefefe;
 }
 
 .quote a {
@@ -475,29 +398,25 @@ header nav {
 
 .quote span {
     display: inline-block;
-    color: #fff;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    color: #fefefe;
+    font-size: 19px;
     letter-spacing: .5px;
     margin: 40px 0 0 0;
-    padding: 15px 30px;
-    border: 1px solid #fff;
+    padding: 18px 50px;
+    border: 1px solid #fefefe;
     border-radius: 5px;
 }
 
 .quote span:hover {
-    background-color: #fff;
+    background-color: #fefefe;
     color: #46d0ec;
     transition: 0.4s;
 }
 
-
-
-
-
 /*   voice   */
 .voice {
-    padding: 80px 0;
+    padding: 40px 0;
+    background-color: #fcfcfc;
 }
 
 .voice ul {
@@ -505,16 +424,17 @@ header nav {
 }
 
 .voice li {
-    border: 2px solid #fbb818;
     height: 100%;
     display: flex;
     position: relative;
     margin-bottom: 50px;
-    background-color: #fdfdfd;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -15px #000;
 }
 
 .voice .left {
-    width: 30%;
+    width: 25%;
 }
 
 .voice li img {
@@ -525,7 +445,7 @@ header nav {
 }
 
 .voice .right {
-    width: 70%;
+    width: 75%;
     margin: 60px 60px 60px 0;
 }
 
@@ -542,27 +462,18 @@ header nav {
 
 .voice .right p {
     color: #777;
+    margin-bottom: 0;
 }
-
-
-
 
 /*   faq   */
 .faq {
-    padding: 0 0 80px 0;
+    padding: 40px 0;
+    background-color: #fefefe;
 }
 
 .accordion1 {
     text-align: left;
     margin: 0 150px;
-}
-
-
-.accordion1 ul {
-    display: none;
-    margin: 0;
-    padding: 0 50px 10px 10px;
-    border: none;
 }
 
 .accordion1 p {
@@ -571,30 +482,59 @@ header nav {
     margin: 0;
 }
 
-.accordion1 .list{
+.accordion1 .list {
     border: 2px solid #fbb818;
     margin-bottom: 10px;
+    width: 100%;
 }
 
-.accordion1 span {
+.li-answer,
+.li-question {
+    width: 100%;
+    margin: 0;
+    padding: 10px 10px;
+    border: none;
+}
+
+.li-answer {
+    display: none;
+    padding: 0 50px 10px 10px;
+}
+
+.que-p {
+    display: flex;
+}
+
+.ans-p {
+    display: flex;
+}
+
+.list span {
     font-size: 30px;
     font-weight: 900;
     padding: 5px;
     color: #fbb818;
 }
 
-.accordion1 .answer {
+.list .answer,
+.list .question {
+    width: 5%;
+}
+
+.list .answer {
     color: #16b7d5;
 }
 
+.ans-p p,
+.que-p p {
+    width: 95%;
+    padding: 0;
+    padding-top: 20px;
+}
 
-
-
-
-
-
-
-
+.faq-space {
+    margin-right: 10px;
+}
 
 /*  contact  */
 .container-contact100 {
@@ -612,11 +552,10 @@ header nav {
     z-index: 1;
     background-image: url(../img/building.jpg);
     background-size: cover;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
-/*==================================================================
-[ Form ]*/
+/*[ Form ]*/
 
 .contact100-form {
     width: 80%;
@@ -637,25 +576,19 @@ header nav {
 .contact100-form-title {
     display: block;
     width: 100%;
-    font-size: 30px;
-    color: #333;
     line-height: 1.2;
     text-align: center;
-    padding-bottom: 44px;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-    font-weight: 100;
+    padding-bottom: 0;
 }
 
 
 
-/*------------------------------------------------------------------
-[ Input ]*/
+/*[ Input ]*/
 
 .wrap-input100 {
     width: 100%;
     position: relative;
     border-bottom: 2px solid #c3c3c3;
-    padding-bottom: 13px;
     margin-bottom: 40px;
 }
 
@@ -691,7 +624,6 @@ header nav {
     display: block;
     width: 100%;
     background: transparent;
-    font-family: Poppins-SemiBold;
     font-size: 18px;
     color: #333;
     line-height: 1.2;
@@ -754,36 +686,17 @@ textarea.input100 {
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-contact100-form-btn {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto;
     margin-top: -25px;
 }
 
 .contact100-form-btn {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-    min-width: 160px;
-    height: 50px;
+    padding: 18px 50px;
     background-color: #fff;
-    border-radius: 25px;
-
-    font-family: Poppins-Medium;
-    font-size: 16px;
+    border-radius: 5px;
+    font-size: 19px;
     color: #16b7d5;
     border: 1px solid #16b7d5;
-    line-height: 1.2;
-
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -840,7 +753,6 @@ textarea.input100 {
     transform: translateY(-50%);
     right: 2px;
     pointer-events: none;
-    font-family: Poppins-Medium;
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
@@ -901,7 +813,6 @@ footer .copyrights {
 
 footer .copyrights p {
     color: #c3c3c3;
-    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
     font-size: 12px;
     letter-spacing: 0.5px;
 }
@@ -947,7 +858,6 @@ footer .reserved {
     position: relative;
     text-align: center;
     color: #333;
-    font-family: "raleway-bold", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -1034,6 +944,17 @@ footer .reserved {
         padding: 0 60px;
     }
 
+    .voice li img {
+        position: absolute;
+        width: 60px;
+        top: 50px;
+        left: 50px;
+    }
+
+    .voice .right {
+        margin: 50px 50px 50px 0;
+    }
+
 }
 
 
@@ -1058,13 +979,12 @@ footer .reserved {
 
     .voice li img {
         position: absolute;
-        width: 60px;
-        top: 50px;
-        left: 50px;
+        top: 40px;
+        left: 40px;
     }
 
     .voice .right {
-        margin: 50px 50px 0 0;
+        margin: 40px 40px 40px 0;
     }
 
     .accordion1 {
@@ -1117,22 +1037,32 @@ footer .reserved {
         display: inline-block;
     }
 
-    .services h1 {
+    .services h1,
+    .trouble h1,
+    .list-item h1,
+    .voice h1,
+    .faq h1,
+    .contact100-form-title {
         font-size: 20px;
+        margin-bottom: 40px;
     }
 
-    .services .services_list {
-        margin-top: 50px;
+    .services {
+        padding: 40px 0;
     }
 
+    .conc-text p {
+        font-size: 15px;
+    }
 
-
-
-
-
-    .trouble h1 {
+    .conc-text span {
+        color: #fbb818;
         font-size: 20px;
-        margin-bottom: 50px;
+    }
+    
+    .tro-list .tro-icon{
+        margin-bottom: 30px;
+        width: 200px;
     }
 
     .fa-angle-down {
@@ -1140,16 +1070,13 @@ footer .reserved {
         padding-top: 30px;
     }
 
-
-
-
-    .list-item h1 {
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
-
     .list-item .item {
         display: block;
+    }
+
+    .list-item h1 span {
+        letter-spacing: -1px;
+        font-size: 25px;
     }
 
     .list-item .item:nth-child(odd) {
@@ -1169,24 +1096,30 @@ footer .reserved {
         font-size: 20px;
     }
 
-
     .quote span {
         width: 100%;
+        margin: 30px 0;
     }
 
     .quote {
         height: 300px;
     }
 
+    .quote blockquote .sub-title {
+        font-size: 13px;
+        margin: 50px 0;
+    }
 
+    .quote blockquote .title {
+        font-size: 17px;
+    }
 
     .voice ul {
         margin: 0;
     }
 
-    .voice h1 {
-        font-size: 20px;
-        margin-bottom: 50px;
+    .voice {
+        padding: 40px 0 0 0;
     }
 
     .voice li img {
@@ -1197,20 +1130,22 @@ footer .reserved {
     }
 
     .voice .right {
-        margin: 30px 30px 0 0;
+        margin: 30px 30px 30px 0;
     }
 
-
-
-
-
-    .faq h1 {
-        font-size: 20px;
-        margin-bottom: 50px;
+    .faq-space {
+        padding-right: 20px;
     }
 
+    .ans-p p,
+    .que-p p {
+        width: 90%;
+    }
 
-
+    .list .answer,
+    .list .question {
+        width: 10%;
+    }
 
     .contact100-form {
         width: 100%;
@@ -1218,8 +1153,7 @@ footer .reserved {
     }
 
     .contact100-form-title {
-        font-size: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 0;
     }
 
     .rs1-wrap-input100 {
@@ -1235,9 +1169,12 @@ footer .reserved {
         font-size: 16px;
     }
 
+    .container-contact100-form-btn {
+        width: 100%;
+    }
+
     .contact100-form-btn {
         margin: 0 auto;
-        border-radius: 5px;
         width: 100%;
     }
 
