@@ -406,18 +406,18 @@ header nav {
 
 .quote p {
     display: inline-block;
-    color: #fafafa;
+    color: #46d0ec;
     font-size: 19px;
     letter-spacing: .5px;
     margin: 40px 0 0 0;
     padding: 18px 50px;
-    border: 1px solid #fafafa;
+    border: 2px solid #46d0ec;
     border-radius: 5px;
 }
 
 .quote p:hover {
-    background-color: #fafafa;
-    color: #46d0ec;
+    background-color: #46d0ec;
+    color: #fff;
     transition: 0.4s;
 }
 
