@@ -609,6 +609,10 @@ header nav {
     margin-bottom: 40px;
 }
 
+.consalt-item{
+    display: flex;
+}
+
 .wrap-input200 input {
     margin-right: 8px;
 }
