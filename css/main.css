@@ -40,14 +40,14 @@
 .consalt-btn .btn {
     padding: 18px 60px;
     font-size: 19px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #46d0ec;
+    color: #46d0ec;
     border-radius: 5px;
 }
 
 .consalt-btn .btn:hover {
-    color: #46d0ec;
-    background-color: #fff;
+    color: #fff;
+    background-color: #46d0ec;
     transition: 0.4s;
 }
 
@@ -123,7 +123,6 @@ header {
     font-size: 22px;
     font-weight: 100;
     text-transform: uppercase;
-
     font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 }
 
@@ -138,8 +137,8 @@ header nav {
 /*    Services    */
 
 .services {
-    padding: 80px 0 40px 0;
-    box-shadow: 0px -10px 56px -5px #c3c3c3;
+    padding: 80px 0 80px 0;
+    box-shadow: 0px 0 56px -5px #fafafa;
     background-color: #fefefe;
     border-bottom: 2px solid #333;
 }
@@ -175,7 +174,7 @@ header nav {
 .conclusion {
     background-color: #fefefe;
     width: 100%;
-    padding: 0 0 40px 0;
+    padding: 0 0 80px 0;
 }
 
 .conclusion img {
@@ -192,6 +191,7 @@ header nav {
 
 .conc-text p {
     font-size: 25px;
+    color: #333;
 }
 
 .conc-text span {
@@ -201,7 +201,7 @@ header nav {
 
 .conc-text .cons-p {
     font-size: 19px;
-    color: #666;
+    color: #333;
     margin-top: 80px;
     margin-bottom: 0;
     padding: 0;
@@ -214,8 +214,8 @@ header nav {
 
 /*   trouble   */
 .trouble {
-    padding: 40px 0;
-    background-color: #fcfcfc;
+    padding: 80px 0;
+    background-color: #fafafa;
 }
 
 .tro-list{
@@ -229,7 +229,7 @@ header nav {
 
 /*   list   */
 .relief {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .list-item {
@@ -274,7 +274,7 @@ header nav {
     line-height: 1.2;
     text-align: left;
     font-size: 22px;
-    color: #111;
+    color: #333;
     padding-left: 74px;
     position: relative;
 }
@@ -389,7 +389,7 @@ header nav {
     border: 0;
     width: 20px;
     height: 1px;
-    background-color: #fefefe;
+    background-color: #fafafa;
 }
 
 .quote a {
@@ -398,25 +398,25 @@ header nav {
 
 .quote span {
     display: inline-block;
-    color: #fefefe;
+    color: #fafafa;
     font-size: 19px;
     letter-spacing: .5px;
     margin: 40px 0 0 0;
     padding: 18px 50px;
-    border: 1px solid #fefefe;
+    border: 1px solid #fafafa;
     border-radius: 5px;
 }
 
 .quote span:hover {
-    background-color: #fefefe;
+    background-color: #fafafa;
     color: #46d0ec;
     transition: 0.4s;
 }
 
 /*   voice   */
 .voice {
-    padding: 40px 0;
-    background-color: #fcfcfc;
+    padding: 80px 0;
+    background-color: #fafafa;
 }
 
 .voice ul {
@@ -430,7 +430,8 @@ header nav {
     margin-bottom: 50px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 20px -15px #000;
+    box-shadow: 10px 10px 0 0 #fbb818;
+    cursor: default;
 }
 
 .voice .left {
@@ -458,17 +459,18 @@ header nav {
 
 .voice .right span {
     font-size: 15px;
+    padding-bottom: 3px;
+    border-bottom: 4px solid #fbb818;
 }
 
 .voice .right p {
-    color: #777;
+    color: #333;
     margin-bottom: 0;
 }
 
 /*   faq   */
 .faq {
-    padding: 40px 0;
-    background-color: #fefefe;
+    padding: 80px 0;
 }
 
 .accordion1 {
@@ -552,7 +554,7 @@ header nav {
     z-index: 1;
     background-image: url(../img/building.jpg);
     background-size: cover;
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 /*[ Form ]*/
@@ -588,7 +590,7 @@ header nav {
 .wrap-input100 {
     width: 100%;
     position: relative;
-    border-bottom: 2px solid #c3c3c3;
+    border-bottom: 2px solid #fafafa;
     margin-bottom: 40px;
 }
 
@@ -614,7 +616,8 @@ header nav {
 .label-input100 {
     font-family: Poppins-Regular;
     font-size: 15px;
-    color: #c3c3c3;
+    color: #333;
+    opacity: 0.8;
     line-height: 1.5;
     padding-left: 5px;
 }
@@ -630,6 +633,7 @@ header nav {
     padding: 0;
     border: none;
     box-shadow: none;
+    resize: none;
 }
 
 .focus-input100 {
@@ -803,7 +807,7 @@ textarea.input100 {
 footer {
     padding-top: 30px;
     background: #333;
-    box-shadow: 0px -15px 56px -10px #c3c3c3;
+    box-shadow: 0px -15px 56px -10px #fafafa;
 }
 
 footer .copyrights {
@@ -812,7 +816,7 @@ footer .copyrights {
 }
 
 footer .copyrights p {
-    color: #c3c3c3;
+    color: #fafafa;
     font-size: 12px;
     letter-spacing: 0.5px;
 }
@@ -1001,22 +1005,16 @@ footer .reserved {
 
     .hero .caption {
         margin-top: 60px;
+        text-align: left;
     }
 
     .hero .caption h1 {
-        font-size: 15px;
         line-height: 25px;
         letter-spacing: 3px;
     }
 
-    .hero .caption h1 span {
-        color: #fbb818;
-        font-size: 19px;
-        letter-spacing: 1px;
-    }
-
     .hero .caption h2 {
-        font-size: 19px;
+        font-size: 22px;
         line-height: 30px;
         letter-spacing: 3px;
         margin: 30px 0;
